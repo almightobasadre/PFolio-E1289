@@ -4,21 +4,21 @@ export default function Header() {
   return (
     <header className="bg-gray-800 text-white p-4">
       <nav className="container mx-auto flex justify-between items-center">
-        <Link href="/">
-          <a className="text-xl font-bold">My Portfolio</a>
+        <Link href="/" className="text-xl font-bold">
+          My Portfolio
         </Link>
         <div>
-          <Link href="/home">
-            <a className="mx-2">Home</a>
+          <Link href="/home" className="mx-2">
+            Home
           </Link>
-          <Link href="/about">
-            <a className="mx-2">Projects</a>
+          <Link href="/about" className="mx-2">
+            Projects
           </Link>
-          <Link href="/contact">
-            <a className="mx-2">About</a>
+          <Link href="/about" className="mx-2">
+            About
           </Link>
-          <Link href="/contact">
-            <a className="mx-2">Contact</a>
+          <Link href="/contact" className="mx-2">
+            Contact
           </Link>
         </div>
       </nav>
