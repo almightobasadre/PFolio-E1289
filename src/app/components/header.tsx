@@ -1,8 +1,11 @@
 import Link from "next/link";
+import theme from "../styles/theme";
 
 export default function Header() {
   return (
-    <header className="bg-gray-800 text-white p-4">
+    <header
+    style={{backgroundColor: theme.colors.primary, color: theme.colors.secondary,}}
+    className="p-4">
       <nav className="container mx-auto flex justify-between items-center">
         <Link href="/" className="text-xl font-bold">
           My Portfolio
