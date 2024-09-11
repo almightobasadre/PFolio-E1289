@@ -13,6 +13,9 @@ const config: Config = {
       colors: theme.colors, // Use the colors from them.ts
     }
   },
+
+  darkMode: 'media', // or 'class' if you prefer manually controlling the mode
+  
   plugins: [],
 };
 
