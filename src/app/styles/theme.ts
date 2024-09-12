@@ -1,11 +1,14 @@
+
 // Define a theme with colors, spacing, etc.
 const theme = {
     colors: {
-      primary: "#1a1a1a",
-      secondary: "#e5e5e5",
-      accent: "#f59e0b",
-      background: "#ffffff",
-      foreground: "#000000",
+      primary: "#2B3D4F",
+      secondary: "#242124",
+      background: "#56721D",
+      text: "#D3D3D3",
+      accent: "#4682B4",
+      border: "#2F4F4F",
+      hover: "#B84D00",
     },
     spacing: {
       small: "8px",
