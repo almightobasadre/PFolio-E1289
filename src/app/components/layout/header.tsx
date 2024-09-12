@@ -1,10 +1,10 @@
 import Link from "next/link";
-import theme from "../styles/theme";
+import theme from "../../styles/theme";
 
 export default function Header() {
   return (
     <header
-    style={{backgroundColor: theme.colors.primary, color: theme.colors.secondary,}}
+    style={{backgroundColor: theme.colors.primary, color: theme.colors.text,}}
     className="p-4">
       <nav className="container mx-auto flex justify-between items-center">
         <Link href="/" className="text-xl font-bold">
