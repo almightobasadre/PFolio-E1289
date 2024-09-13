@@ -1,4 +1,3 @@
-
 // Define a theme with colors, spacing, etc.
 const theme = {
     colors: {
